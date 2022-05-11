@@ -24,11 +24,11 @@ sidebar   ./docs/_sidebar.md
 ```
 push
 
-git clone
+git clone xxx
 git satus
 git add .
-git commit -m ''
-git push
+git commit -m 'xxx'
+git push origin master
 ```
 ---
 ---
