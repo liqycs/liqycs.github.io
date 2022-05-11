@@ -1,5 +1,5 @@
 
-<div style="font-size:20px">
+<div style="font-size:18px">
 
 <br>
 

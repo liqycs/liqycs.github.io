@@ -1,3 +1,15 @@
+@media (max-width: 999px) {
+    .load1{
+        position: fixed;   
+        width: 88px;
+        height: 88px;
+        margin:auto;
+        top:0;
+        bottom:0;
+        left:0;
+        right:0;
+    }
+}
 .load1{
     position: fixed;
     top: 1%;

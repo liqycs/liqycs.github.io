@@ -1892,10 +1892,14 @@ body .sidebar {
 }
 .mask {
 	background-image: url(image5.png);
+	background-size:100% 100%;
 }
 
-
-
+@media (max-width: 999px) {
+.mask {
+	display: none;
+	}
+}
 /* https://jhildenbiddle.github.io/docsify-themeable/#/ */
 
 /* <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script> */

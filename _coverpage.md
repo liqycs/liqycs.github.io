@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="_coverpage.css">
 <div class="load1"><div class="loader"></div></div>
 
-<!-- &.mask 覆盖背景色 -->
+<!-- &.mask 覆盖主题原背景色 -->
 ![](img/image222222222222222.png)
 
 
