@@ -2,12 +2,10 @@
 <!-- _coverpage.md -- 空格即换行 -->
 
 ---
----
----
 
-<div style='color: rgb(12, 187, 196)'>
+<div style='text-decoration：none'>
 
-[Github](https://github.com/liqycs/liqycs.git)
+[Loading is slow Wait a minute](https://github.com/liqycs/liqycs.git)
 
 </div>
 
@@ -28,9 +26,4 @@ git commit -m ''
 git push origin master
 ```
 
-<br>
-
 ---
----
----
-

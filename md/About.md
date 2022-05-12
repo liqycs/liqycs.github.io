@@ -1,12 +1,12 @@
 
----
+
 ## Thanks
 
 <div style='color: rgb(12, 187, 196)'>
 
 [docsify](https://docsify.js.org/#/zh-cn/)
 
-[主题](https://jhildenbiddle.github.io/docsify-themeable/#/introduction)
+[主题来源](https://docsify-darklight-theme.boopathikumar.me/#/)
 
 [封面动画](https://b23.tv/NawuvTf)
 
@@ -15,7 +15,6 @@
 </div>
 
 
----
 
 ## Markdown
 
@@ -124,7 +123,7 @@ _斜体_
 
 #### 图片
 
-![line](img/image0.png)
+![line](img/test.png)
 
 ```md
 ![line](http://xx.com/xx.jpg)
@@ -329,25 +328,25 @@ html 代码。不要担心，你仍然可以为链接设置标题。
 #### 图片处理
 缩放
 ```html
-![logo](img/image2.png ':size=WIDTHxHEIGHT')
+![logo](img/test.png ':size=WIDTHxHEIGHT')
 <!-- 支持百分比缩放 -->
-![logo](img/image2.png ':size=50%')
-![logo](img/image2.png ':size=200x200')
-![logo](img/image2.png ':size=100')
+![logo](img/test.png ':size=20%')
+![logo](img/test.png ':size=200x200')
+![logo](img/test.png ':size=100')
 
 ````
-![logo](img/image2.png ':size=WIDTHxHEIGHT')
-![logo](img/image2.png ':size=50%')
-![logo](img/image2.png ':size=200x200')
-![logo](img/image2.png ':size=100')
+![logo](img/test.png ':size=WIDTHxHEIGHT')
+![logo](img/test.png ':size=20%')
+![logo](img/test.png ':size=200x200')
+![logo](img/test.png ':size=100')
 
 设置图片的 Class
 ```html
-![logo](img/image2.png ':class=someCssClass')
+![logo](img/test.png ':class=someCssClass')
 ```
 设置图片的 ID
 ```html
-![logo](img/image2.png ':id=someCssId')
+![logo](img/test.png ':id=someCssId')
 ```
 #### 设置标题的 id 属性
 ```
