@@ -8,9 +8,9 @@
     * [毒经](md/02毒经.md)
     * [洗髓](md/01洗髓.md)
 
-* 指南  
-    * [markdown](md/markdown.md)
-    * [docsify](md/docsify.md)
-* [关于](About.md)
+* About
+    * [markdown](sd/markdown.md)
+    * [docsify](sd/docsify.md)
+    * [Thanks](sd/Thanks.md)
 
 

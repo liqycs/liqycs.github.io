@@ -24,7 +24,7 @@ sidebar   ./docs/_sidebar.md
 ```
 push
 
-git clone 
+git clone
 git satus
 git add .
 git commit -m ''
