@@ -10,21 +10,20 @@ jobs:
     steps:
       - name: Mirror the Github organization repos to Gitee.
         uses: Yikun/hub-mirror-action@master
-        # env:
-          # 注意在 Settings->Secrets 配置 GITEE_RSA_PRIVATE_KEY
-          # SSH_PRIVATE_KEY: ${{ secrets.GITEE_RSA_PRIVATE_KEY }}
-        with:
-          # 注意替换为你的 GitHub 源仓库地址
-          # source-repo: git@github.com:liqycs/liqycs.git
-          # 注意替换为你的 Gitee 目标仓库地址
-          # destination-repo: git@gitee.com:liqycs/liqycs.git
-          
+        with:          
+          # 表示需要被同步的源端账户名，即 Github 的账户名
           src: 'github/liqycs'
+          # 表示需要同步到的目的端账户名，即 Gitee 的账户名
           dst: 'gitee/liqycs'
+          # 注意在 Settings->Secrets 配置私钥 GITEE_RSA_PRIVATE_KEY
           dst_key: ${{ secrets.GITEE_RSA_PRIVATE_KEY }}
+          # Gitee TOKEN
           dst_token:  ${{ secrets.GITEE_TOKEN }}
+          # 表示单一仓库同步
           static_list: "liqycs"
+          # 表示启用 git push -f 强制同步
           force_update: true
+          # 表示启用 debug 开关，会显示所有执行命令
           debug: true
 
       - name: Build Gitee Pages

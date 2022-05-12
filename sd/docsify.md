@@ -82,25 +82,25 @@ html 代码。不要担心，你仍然可以为链接设置标题。
 #### 图片处理
 缩放
 ```html
-![logo](img/image5.png ':size=WIDTHxHEIGHT')
+![logo](image2.png ':size=WIDTHxHEIGHT')
 <!-- 支持百分比缩放 -->
-![logo](img/image5.png ':size=50%')
-![logo](img/image5.png ':size=200x200')
-![logo](img/image5.png ':size=100')
+![logo](image2.png ':size=50%')
+![logo](image2.png ':size=200x200')
+![logo](image2.png ':size=100')
 
 ````
-![logo](img/image5.png ':size=WIDTHxHEIGHT')
-![logo](img/image5.png ':size=50%')
-![logo](img/image5.png ':size=200x200')
-![logo](img/image5.png ':size=100')
+![logo](image2.png ':size=WIDTHxHEIGHT')
+![logo](image2.png ':size=50%')
+![logo](image2.png ':size=200x200')
+![logo](image2.png ':size=100')
 
 设置图片的 Class
 ```html
-![logo](img/image5.png ':class=someCssClass')
+![logo](image2.png ':class=someCssClass')
 ```
 设置图片的 ID
 ```html
-![logo](img/image5.png ':id=someCssId')
+![logo](image2.png ':id=someCssId')
 ```
 #### 设置标题的 id 属性
 ```
@@ -108,28 +108,37 @@ html 代码。不要担心，你仍然可以为链接设置标题。
 ```
 html 标签中的 Markdown
 你需要在 html 和 Markdown 内容中插入空行。 当你需要在 details 元素中渲染 Markdown 时很有用。
+
+<details>
+<summary>自我评价（点击展开）</summary>
+
+- Abc
+- Abc
+- Abc
+
+</details>
+
 ```html
 <details>
 <summary>自我评价（点击展开）</summary>
 
 - Abc
 - Abc
+- Abc
 
 </details>
 ````
-<details>
-<summary>自我评价（点击展开）</summary>
-
-- Abc
-- Abc
-
-</details>
-
 
 ---
 
 #### Markdown内容也可以被 html 标签包裹
 
+<div style='color: green'>
+
+- listitem
+- listitem
+- listitem
+</div>
 
 ```html
 <div style='color: green'>
@@ -139,11 +148,3 @@ html 标签中的 Markdown
 - listitem
 </div>
 ```
-<div style='color: green'>
-
-- listitem
-- listitem
-- listitem
-</div>
-
-Powered by docsify
