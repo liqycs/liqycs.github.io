@@ -7,7 +7,6 @@
     <meta name="description" content="Description">
     <meta name="viewport"content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="icon" href="sd/ico.png" type="image/x-icon" />
-    <link rel="shortcut icon" href="sd/ico.png" type="image/x-icon" />
     <link rel="stylesheet" href="sd/css.css">
     <link rel="stylesheet" href="sd/loading.css">
 </head>
@@ -19,7 +18,6 @@
     <script src="sd/docsify.js"></script>
     <script>
         window.$docsify = {
-            // 名称
             name: '',
             // 侧边栏，根目录下_sidebar.md文件
             loadSidebar: true,
@@ -28,11 +26,11 @@
             // 自动生成目录的最大层级，自定义侧边栏后不生成目录
             subMaxLevel: 3,
             // 小屏设备下合并导航栏到侧边栏
-            mergeNavbar: true,
+            mergeNavbar: false,
             // 最后更新时间
             timeUpdater: {
             text: "<div align='left' width='200px' style='color:gray;font-size:10px'>Last updated:&emsp;{docsify-updated}</div>",
-            formatUpdated: "{YYYY} . {MM} . {DD} ",
+            formatUpdated: "{YYYY} - {MM} - {DD} ",
             whereToPlace: "top"},
         }
     </script>
@@ -43,10 +41,8 @@
     <script src="sd/time.js"></script>
     <!-- 图片放大缩小 -->
     <script src="sd/img.js"></script>   
-    <!--所有的代码块copy按钮-->
+    <!--copy按钮-->
     <script src="sd/copy.js"></script>
-    <!--鼠标特效-->
-    <script src="sd/mouse.js"></script>
     <!--返回顶部-->
     <script src="sd/totop.js"></script>
 </html>

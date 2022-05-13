@@ -221,8 +221,13 @@ main.hidden {
 	bottom:0;
 	left:0;
 	transition:transform .25s ease-out;
-	width:300px;
+	width:280px;
 	z-index:20;
+}
+@media (max-width: 1222px) {
+    .sidebar {
+		width:200px;
+	}
 }
 .sidebar>h1 {
 	margin:0 auto 1rem;

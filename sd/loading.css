@@ -1,31 +1,28 @@
 @media (max-width: 999px) {
-    .load1{
-        position: fixed;   
-        width: 88px;
-        height: 88px;
-        margin:auto;
-        top:0;
-        bottom:0;
-        left:0;
-        right:0;
+    .load1,.loader{
+    display: none;
     }
 }
-.load1{
-    position: fixed;
-    top: 0.5%;
-    right: 0.5%;
+
+@media (min-width: 999px) {
+    .load1{
+        position: fixed;
+        top: 0.5%;
+        right: 0.5%;
+    }
+    .loader{
+        width: 88px;
+        height: 88px;
+        /* 相对定位 */
+        position: relative;
+        border-radius: 50%;
+        border: 2px solid transparent;
+        border-top-color: #4bc0c8;
+        /* 执行动画：动画名 时长 线性的 无限次播放 */
+        animation: spin 1s linear infinite;
+    }
 }
-.loader{
-    width: 88px;
-    height: 88px;
-    /* 相对定位 */
-    position: relative;
-    border-radius: 50%;
-    border: 2px solid transparent;
-    border-top-color: #4bc0c8;
-    /* 执行动画：动画名 时长 线性的 无限次播放 */
-    animation: spin 1s linear infinite;
-}
+
 /* 中圈 */
 .loader::before{
     content: "";

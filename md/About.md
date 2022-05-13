@@ -4,19 +4,15 @@
 
 <div style='color: rgb(12, 187, 196)'>
 
-[docsify](https://docsify.js.org/#/zh-cn/)
+[主题](https://docsify-darklight-theme.boopathikumar.me/#/)
 
-[主题来源](https://docsify-darklight-theme.boopathikumar.me/#/)
-
-[封面动画](https://b23.tv/NawuvTf)
-
-[鼠标特效](https://b23.tv/i2cZ5MH)
+[动画](https://b23.tv/NawuvTf)
 
 </div>
 
 
 
-## Markdown
+## Markdown 基本语法
 
 
 
@@ -243,11 +239,17 @@ return temp
         height="86px"
 ></iframe>
 ```
+#### 插入空格
+```
+插入一个空格 (non-breaking space)    &nbsp;    或    &#160;     或      &#xA0;
+插入两个空格 (en space)    &ensp;     或    &#8194;   或      &#x2002;
+插入四个空格 (em space)    &emsp;    或    &#8195;   或      &#x2003;
+插入细空格 (thin space)    &thinsp;   或     &#8201;  或      &#x2009;
+```
 
 
----
 
-## docsify
+## docsify 扩展语法
 
 
 #### 文档助手

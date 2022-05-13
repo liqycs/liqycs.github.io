@@ -1,23 +1,17 @@
 
-<!-- _coverpage.md -- 空格即换行 -->
+[docsify](https://docsify.js.org/#/zh-cn/)&emsp;&ensp;&emsp;&thinsp;
 
----
-
-<div style='text-decoration：none'>
-
-[Loading is slow Wait a minute](https://github.com/liqycs/liqycs.git)
-
-</div>
+[一个神奇的文档网站生成器](https://github.com/liqycs/liqycs.git)
 
 ```
 add
 
-md         ./docs/md/
-img        ./docs/md/img/
-sidebar   ./docs/_sidebar.md
+md          ./md/
+img         ./md/img/
+sidebar    _sidebar.md
 ```
 ```
-push
+use
 
 git clone
 git satus
@@ -25,5 +19,3 @@ git add .
 git commit -m ''
 git push origin master
 ```
-
----
