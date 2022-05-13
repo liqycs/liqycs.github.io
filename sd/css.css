@@ -66,7 +66,7 @@ body {
 	-moz-osx-font-smoothing:grayscale;
 	-webkit-font-smoothing:antialiased;
 	color:var(--textColor);
-	font-family:var(--siteFont),Helvetica Neue,Arial,sans-serif;
+	font-family:var(--siteFont),'Times New Roman', Times, serif;
 	font-size:var(--bodyFontSize);
 	letter-spacing:0;
 	margin:0;
@@ -255,7 +255,7 @@ main.hidden {
 	padding:0;
 }
 .sidebar li>p {
-	font-weight:700;
+	font-weight:200;
 	margin:0;
 }
 .sidebar ul,.sidebar ul li {
@@ -374,7 +374,7 @@ body.sticky .sidebar,body.sticky .sidebar-toggle {
 	border-radius:100%;
 	color:#fff;
 	content:"!";
-	font-family:Dosis,Source Sans Pro,Helvetica Neue,Arial,sans-serif;
+	font-family:'Times New Roman', Times, serif;
 	font-size:14px;
 	font-weight:700;
 	left:-12px;

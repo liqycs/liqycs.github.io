@@ -1,17 +1,16 @@
 
-[docsify](https://docsify.js.org/#/zh-cn/)&emsp;&ensp;&emsp;&thinsp;
+<br><br>
+<div style="font-size:20px;font-family: 'Times New Roman', Times, serif">
 
-[一个神奇的文档网站生成器](https://github.com/liqycs/liqycs.git)
+[docsify&emsp;&ensp;一个神奇的文档网站生成器](https://docsify.js.org/#/zh-cn/)
+
+</div><br><br>
 
 ```
-add
-
 md          ./md/
 img         ./md/img/
 sidebar    _sidebar.md
-```
-```
-use
+
 
 git clone
 git satus
