@@ -6,13 +6,11 @@
 
 [docsify](https://docsify.js.org/#/zh-cn/)
 
-[主题](https://docsify-darklight-theme.boopathikumar.me/#/)
-
-[动画](https://b23.tv/NawuvTf)
+[docsify-theme](https://docsify-darklight-theme.boopathikumar.me/#/)
 
 </div>
 
-
+<br><br>
 
 ## Markdown 基本语法
 
@@ -249,7 +247,7 @@ return temp
 插入细空格 (thin space)    &thinsp;   或     &#8201;  或      &#x2009;
 ```
 
-
+<br><br>
 
 ## docsify 扩展语法
 
@@ -333,16 +331,16 @@ html 代码。不要担心，你仍然可以为链接设置标题。
 缩放
 ```html
 ![logo](img/test.png ':size=WIDTHxHEIGHT')
+![logo](img/test.png ':size=100')
+![logo](img/test.png ':size=200x200')
 <!-- 支持百分比缩放 -->
 ![logo](img/test.png ':size=20%')
-![logo](img/test.png ':size=200x200')
-![logo](img/test.png ':size=100')
 
 ````
 ![logo](img/test.png ':size=WIDTHxHEIGHT')
-![logo](img/test.png ':size=20%')
-![logo](img/test.png ':size=200x200')
 ![logo](img/test.png ':size=100')
+![logo](img/test.png ':size=200x200')
+![logo](img/test.png ':size=20%')
 
 设置图片的 Class
 ```html

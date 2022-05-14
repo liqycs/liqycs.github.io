@@ -96,13 +96,15 @@ li input[type=checkbox] {
 	margin:0 .2em .25em 0;
 	vertical-align:middle;
 }
+/* 导航 */
 .app-nav {
-	margin: 42px 60px 0 0;
-	position:absolute;
-	right:16px;
+	margin: 10px 0;
+	position: fixed;
+	top:20px;
+	right: 50px;
 	text-align:right;
 	z-index:10;
-    display: none;       /* 隐藏算了*/
+	color: var(--textColor);  
 }
 .app-nav.no-badge {
 	margin-right:25px;
@@ -226,7 +228,7 @@ main.hidden {
 }
 @media (max-width: 1222px) {
     .sidebar {
-		width:200px;
+		width:180px;
 	}
 }
 .sidebar>h1 {
@@ -323,6 +325,7 @@ body.sticky .sidebar,body.sticky .sidebar-toggle {
 	padding:30px 15px 40px;
 	position:relative;
 }
+
 .markdown-section>* {
 	box-sizing:border-box;
 	font-size:inherit;
@@ -471,7 +474,7 @@ body.close .app-nav,body.close .github-corner {
 #docsify-darklight-theme {
 	position:fixed;
 	right:2%;
-	top: 4.1%;
+	top: 9%;
 	width:25px;
 	height:25px;
 	z-index: 99;
@@ -505,6 +508,7 @@ body.close .app-nav,body.close .github-corner {
 40%,80% {
 	transform:rotate(10deg);
 }
+
 ;}section.cover {
 	align-items:center;
 	background-position:50%;
@@ -515,11 +519,9 @@ body.close .app-nav,body.close .github-corner {
 }
 section.cover.show {
 	display:flex;
-	background:var(--coverBackground)!important;
+	/* background:var(--coverBackground)!important;  */
 }
 section.cover.has-mask .mask {
-	/* background-image: url(css.png); */
-    background-color: #000;
 	opacity:.8;
 	position:absolute;
 	top:0;
@@ -527,10 +529,13 @@ section.cover.has-mask .mask {
 	width:100%;
 }
 section.cover .cover-main {
-	flex:1;
-	margin:-20px 16px 0;
+	/* flex:1; */
+	position: absolute;	
+	top:10px;
+	right: 10px;
 	text-align:center;
 	z-index:1;
+
 }
 section.cover a {
 	color:inherit;
@@ -569,22 +574,20 @@ section.cover ul {
 	max-width:500px;
 	padding:0;
 }
+
+/* 封面HOME位置 */
 section.cover .cover-main>p:last-child a {
 	border-radius:2rem;
-	border:1px solid rgb(12, 187, 196);
+	/* border:1px dashed rgb(12, 187, 196); */
 	box-sizing:border-box;
 	color:rgb(12, 187, 196);
 	display:inline-block;
-	font-size:1.05rem;
-	letter-spacing:.1rem;
-	margin:.5rem 1rem;
-	padding:.75em 2rem;
+	font-size:1rem;
+	letter-spacing:0.1rem;
+	margin:0.1rem 0.5rem;
+	padding: 0.5em 0.5rem;
 	text-decoration:none;
 	transition:all .15s ease;
-}
-section.cover .cover-main>p:last-child a:last-child {
-	background-color:rgb(12, 187, 196);
-	color:#fff;
 }
 section.cover .cover-main>p:last-child a:last-child:hover {
 	color:inherit;
@@ -705,7 +708,6 @@ section.cover blockquote>p>a:hover {
 	background-color:var(--codeBackgroundColor);
 	font-family:var(--codeFontFamily);
 	border-radius: 8px;
-    
 }
 .markdown-section pre {
 	-moz-osx-font-smoothing:initial;
@@ -820,8 +822,8 @@ pre:after {
 }
 #docsify-darklight-theme {
 	position:fixed;
-	right:2.3%;
-	top: 4.1%;
+	right:15px;
+	top: 54px;
 	width:25px;
 	height:25px;
 	z-index: 99;
@@ -837,4 +839,19 @@ pre:after {
 }
 #docsify-darklight-theme p {
 	visibility:hidden;
+}
+.mask{
+	background-image: url(jx3.jpg);
+	background-size:100%;
+	background-repeat:no-repeat;
+	background-position: 0%;
+}
+@media (max-width: 999px) {
+    .mask {
+		background-image: url(jx3media.jpg);
+		
+		background-repeat:no-repeat;
+		background-position:0% 0%;
+  		background-size:cover;
+	}
 }

@@ -47,13 +47,12 @@ const pluginFunction = function (hook, vm) {
         scrollBtn.style.width = options.width + 'px';
         scrollBtn.style.height = options.height + 'px';
         scrollBtn.style.lineHeight = options.height + 'px';
-        scrollBtn.style.background = 'white';
-        scrollBtn.style.color = '#666';
-        scrollBtn.style.border = '1px solid #ddd';
-        scrollBtn.style.borderRadius = '4px';
-        scrollBtn.style.fontSize = '16px';
+        scrollBtn.style.color = 'var(--textColor)';
+        scrollBtn.style.border = '1px solid var(--textColor)';
+        scrollBtn.style.background = 'var(--codeBackgroundColor)'
+        scrollBtn.style.borderRadius = '8px';
+        scrollBtn.style.fontSize = '12px';
         scrollBtn.style.textAlign = 'center';
-        scrollBtn.style.boxShadow = '0px 0px 6px #eee';
         scrollBtn.style.cursor = 'pointer';
 
         let contentTag;

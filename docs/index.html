@@ -12,18 +12,21 @@
 <body>
     <!-- 加载 -->
     <div id="app">Loading...</div>
-    <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.js"></script>
     <script>
         window.$docsify = {
             name: '',
             // 侧边栏，根目录下_sidebar.md文件
             loadSidebar: true,
-            // 最大标题层级
-            maxLevel: 3,
-            // 自动生成目录的最大层级，自定义侧边栏后不生成目录
-            subMaxLevel: 3,
-            // 小屏设备下合并导航栏到侧边栏
-            mergeNavbar: false,
+            // autoHeader: true,
+            // 目录的最大层级
+            subMaxLevel: 2,
+            // 启用封面，仅在访问主页时加载封面
+            coverpage: true,
+            onlyCover: true,
+            // 滚动到指定的锚点时距离顶部一定空间
+            topMargin: 80, 
+            // 切换页面后是否自动跳转到页面顶部
+            auto2top: true,
             // 最后更新时间
             timeUpdater: {
             text: "<div align='left' width='200px' style='color:gray;font-size:10px'>Last updated:&emsp;{docsify-updated}</div>",
@@ -31,6 +34,7 @@
             whereToPlace: "top"},
         }
     </script>
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.js"></script>
     <!--dark/light-->
     <script src="sd/css.js"></script>
     <!--最后更新时间插件-->
