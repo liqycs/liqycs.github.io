@@ -2,7 +2,9 @@
 
 ## Thanks
 
-<div style='color: rgb(12, 187, 196)'>
+<div style='font-size:18px'>
+
+[docsify](https://docsify.js.org/#/zh-cn/)
 
 [主题](https://docsify-darklight-theme.boopathikumar.me/#/)
 

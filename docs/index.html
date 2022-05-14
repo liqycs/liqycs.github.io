@@ -8,18 +8,14 @@
     <meta name="viewport"content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="icon" href="sd/ico.png" type="image/x-icon" />
     <link rel="stylesheet" href="sd/css.css">
-    <link rel="stylesheet" href="sd/loading.css" media="none" onload="this.media='all'">
 </head>
 <body>
-    <!-- 动画 -->
-    <div class="load1"><div class="loader"></div></div>
     <!-- 加载 -->
     <div id="app">Loading...</div>
-    <!-- docsify -->
-    <script src="sd/docsify.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.js"></script>
     <script>
         window.$docsify = {
-            name: '在在在',
+            name: '',
             // 侧边栏，根目录下_sidebar.md文件
             loadSidebar: true,
             // 最大标题层级
@@ -35,15 +31,15 @@
             whereToPlace: "top"},
         }
     </script>
-</body>
     <!--dark/light-->
     <script src="sd/css.js"></script>
     <!--最后更新时间插件-->
     <script src="sd/time.js"></script>
-    <!-- 图片放大缩小 -->
-    <script src="sd/img.js" async></script>   
-    <!--copy按钮-->
-    <script src="sd/copy.js" async></script>
     <!--返回顶部-->
-    <script src="sd/totop.js" async></script>
+    <script src="sd/totop.js"></script>
+    <!--copy按钮-->
+    <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+    <!-- 图片放大缩小 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+</body>
 </html>
