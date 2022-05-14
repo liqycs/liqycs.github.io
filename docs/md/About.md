@@ -6,7 +6,7 @@
 
 [docsify](https://docsify.js.org/#/zh-cn/)
 
-[docsify-theme](https://docsify-darklight-theme.boopathikumar.me/#/)
+[docsify-darklight-theme](https://docsify-darklight-theme.boopathikumar.me/#/)
 
 </div>
 

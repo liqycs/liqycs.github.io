@@ -402,6 +402,10 @@ body.sticky .sidebar,body.sticky .sidebar-toggle {
 .markdown-section ul.task-list>li {
 	list-style-type:none;
 }
+.markdown-section p a{
+	font-size: 20px;
+	font-family: 'Times New Roman', Times, serif;
+}
 body.close .sidebar {
 	transform:translateX(-300px);
 }
@@ -473,8 +477,8 @@ body.close .app-nav,body.close .github-corner {
 
 #docsify-darklight-theme {
 	position:fixed;
-	right:2%;
-	top: 9%;
+	right:15px;
+	top: 20px;
 	width:25px;
 	height:25px;
 	z-index: 99;
@@ -823,7 +827,7 @@ pre:after {
 #docsify-darklight-theme {
 	position:fixed;
 	right:15px;
-	top: 54px;
+	top: 20px;
 	width:25px;
 	height:25px;
 	z-index: 99;
@@ -839,19 +843,4 @@ pre:after {
 }
 #docsify-darklight-theme p {
 	visibility:hidden;
-}
-.mask{
-	background-image: url(jx3.jpg);
-	background-size:100%;
-	background-repeat:no-repeat;
-	background-position: 0%;
-}
-@media (max-width: 999px) {
-    .mask {
-		background-image: url(jx3media.jpg);
-		
-		background-repeat:no-repeat;
-		background-position:0% 0%;
-  		background-size:cover;
-	}
 }
