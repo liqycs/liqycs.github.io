@@ -75,6 +75,9 @@ body {
 .markdown-section h2 {
 	color:#fff;
 }
+.markdown-section h2 hr{
+	color:red;
+}
 img {
 	max-width:100%;
 }
@@ -318,14 +321,15 @@ body.sticky .sidebar,body.sticky .sidebar-toggle {
 	bottom:0;
 	left:300px;
 	transition:left .25s ease;
+	font-family: 'Times New Roman', Times, serif;
 }
 .markdown-section {
 	margin:0 auto;
 	max-width:90%;
 	padding:30px 15px 40px;
 	position:relative;
+	
 }
-
 .markdown-section>* {
 	box-sizing:border-box;
 	font-size:inherit;
@@ -619,7 +623,7 @@ section.cover blockquote>p>a:hover {
 }
 .sidebar ul li a {
 	color:var(--sidebarSublink);
-	font-size:14px;
+	font-size:16px;
 	font-weight:500;
 	overflow:hidden;
 	text-decoration:none;

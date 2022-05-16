@@ -13,16 +13,18 @@
     <div id="app">Loading...</div>
     <script>
         window.$docsify = {
-            name: '',
+            name: 'QYCS',
             // 侧边栏 _sidebar.md
             loadSidebar: true,
             // 目录的最大层级
-            subMaxLevel: 2,
+            subMaxLevel: 3,
             autoHeader: false,
             // 滚动到指定的锚点时距离顶部一定空间
             topMargin: 80, 
             // 切换页面后是否自动跳转到页面顶部
             auto2top: true,
+            // 入口文件改为
+            homepage: 'index.md',
             // 最后更新时间
             timeUpdater: {
             text: "<div align='left' width='200px' style='color:gray;font-size:10px'>Last updated:&emsp;{docsify-updated}</div>",
@@ -39,8 +41,8 @@
     <!-- 返回顶部 -->
     <script src="sd/totop.js"></script>
     <!-- 复制按钮 -->
-    <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+    <script src="sd/copy.js"></script>
     <!-- 图片缩放 -->
-    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+    <script src="sd/img.js"></script>
 </body>
 </html>
