@@ -1,8 +1,8 @@
 
-
-* [明教](md/mj.md)
-* [其它](md/qt.md)
-* [About](md/About.md)
+* jx3
+  * [明教](md/明教.md)
+  * [其它](md/其他.md)
+* [关于](md/关于.md)
 
 
 
