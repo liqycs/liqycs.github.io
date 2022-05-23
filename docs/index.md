@@ -1,2 +1,10 @@
-<!-- 主页 -->
+---
+sidebar_position: 1
+# description: 
+# image: 
+# keywords: []
+slug: /
+title: Wellcom
+---
 
+![](/img/xxx.png)
