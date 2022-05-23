@@ -2,6 +2,7 @@
   "name": "ying-winwin",
   "version": "0.0.0",
   "private": true,
+  "persist-credentials":false,
   "homepage": "https://liqycs.github.io/liqycs",
   "scripts": {
     "docusaurus": "docusaurus",
