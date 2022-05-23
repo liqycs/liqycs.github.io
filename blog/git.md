@@ -37,3 +37,8 @@ git push origin --delete xxx
 
 git push origin :xxx
 ```
+
+### 本地远程分支关联
+```
+git branch --set-upstream-to=origin/<branch>
+```
