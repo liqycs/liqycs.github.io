@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "persist-credentials":false,
-  "homepage": "https://liqycs.github.io/liqycs",
+  "homepage": "https://liqycs.github.io",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",

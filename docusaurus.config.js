@@ -11,12 +11,12 @@ const config = {
   title: '在吗',
   tagline: '在在在',
   url: 'https://liqycs.github.io',
-  baseUrl: '/liqycs/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: '/img/favicon.ico',
   organizationName: 'liqycs', // Usually your GitHub org/user name.
-  projectName: "liqycs", // Usually your repo name.
+  projectName: "liqycs.github.io", // Usually your repo name.
   trailingSlash: false,
   onBrokenLinks: 'throw',
   deploymentBranch: 'gh-pages',
@@ -66,21 +66,19 @@ const config = {
       
       navbar: {
         title: 'QYCS',
-        logo: {
-          src: 'img/favicon.ico',
-        },
+        // logo: {src: 'img/favicon.ico'},
 
         items: [
           {
             type: 'doc',
             docId: 'index',
-            position: 'right',
-            label: 'HOME',
+            position: 'left',
+            label: '文档',
           },
           { to: '/blog', label: '琐碎', position: 'left' },
 
           {
-            href: 'https://github.com/liqycs/liqycs',
+            href: 'https://github.com/liqycs/liqycs.github.io',
             label: 'GitHub',
             position: 'right',
           },
