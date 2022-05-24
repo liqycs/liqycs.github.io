@@ -14,7 +14,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: '/img/favicon.ico',
+  favicon: '/img/ico.png',
   organizationName: 'liqycs', // Usually your GitHub org/user name.
   projectName: "liqycs.github.io", // Usually your repo name.
   trailingSlash: false,
@@ -66,7 +66,7 @@ const config = {
       
       navbar: {
         title: 'QYCS',
-        // logo: {src: 'img/favicon.ico'},
+        logo: {src: 'img/favicon.ico'},
 
         items: [
           {
