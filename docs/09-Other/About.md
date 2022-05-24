@@ -1,9 +1,8 @@
 ---
-title: About
+title: 关于
 pagination_prev: null
 hide_title: true
 ---
-
 
 :pill:
 

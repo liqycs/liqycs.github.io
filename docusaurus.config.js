@@ -8,7 +8,7 @@ const oceanicNext = require('prism-react-renderer/themes/oceanicNext')
 const duotoneLight = require('prism-react-renderer/themes/duotoneLight')
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '在吗',
+  title: '在在在',
   tagline: '在在在',
   url: 'https://liqycs.github.io',
   baseUrl: '/',
@@ -27,6 +27,11 @@ const config = {
     defaultLocale: 'zh-cn',
     locales: ['zh-cn'],
   },
+  
+  customFields: {
+
+    showLastUpdateTime : false
+  },
 
   presets: [
     [
@@ -39,7 +44,7 @@ const config = {
         },
         blog: {
           showReadingTime: false,
-          blogSidebarTitle: '琐碎',
+          blogSidebarTitle: 'NOTE',
           blogSidebarCount: 'ALL',
         },
         theme: {
@@ -56,6 +61,7 @@ const config = {
         sidebar: {
           hideable: true,
           autoCollapseCategories: true,
+          
         },
       },
       colorMode: {
@@ -66,16 +72,16 @@ const config = {
       
       navbar: {
         title: 'QYCS',
-        logo: {src: 'img/favicon.ico'},
+        // logo: {src: 'img/favicon.ico'},
 
         items: [
           {
             type: 'doc',
             docId: 'index',
             position: 'left',
-            label: '文档',
+            label: 'DOCS',
           },
-          { to: '/blog', label: '琐碎', position: 'left' },
+          { to: '/blog', label: 'NOTE', position: 'left', showLastUpdateTime : false,},
 
           {
             href: 'https://github.com/liqycs/liqycs.github.io',
