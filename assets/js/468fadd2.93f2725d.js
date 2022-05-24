@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkying_winwin=self.webpackChunkying_winwin||[]).push([[841],{1640:function(e){e.exports=JSON.parse('{"permalink":"/liqycs/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":5,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
