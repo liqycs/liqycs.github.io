@@ -4,7 +4,7 @@ pagination_prev: null
 hide_title: true
 ---
 
-:pill:
+:pill: :pill: :pill:
 
 [https://www.docusaurus.io/](https://www.docusaurus.io/)
 

@@ -71,7 +71,7 @@ const config = {
       }, 
       
       navbar: {
-        title: 'QYCS',
+        // title: 'QYCS',
         // logo: {src: 'img/favicon.ico'},
 
         items: [
@@ -86,6 +86,11 @@ const config = {
           {
             href: 'https://github.com/liqycs/liqycs.github.io',
             label: 'GitHub',
+            position: 'right',
+          },
+          {
+            href: 'https://www.bilibili.com/video/BV1194y1f79C?p=38&share_source=copy_web',
+            // label: 'Bilibili',
             position: 'right',
           },
         ],
