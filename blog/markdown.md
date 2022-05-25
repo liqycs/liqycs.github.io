@@ -110,7 +110,7 @@ _斜体_
 
 ## 图片
 
-![line](/img/xxx.png)
+![line](/img/000.png)
 
 ```md
 ![line](http://xx.com/xx.jpg)

@@ -71,17 +71,22 @@ const config = {
       }, 
       
       navbar: {
-        // title: 'QYCS',
-        // logo: {src: 'img/favicon.ico'},
+        title: '在在在',
+        // logo: {src: 'img/ico.png'},
 
         items: [
           {
             type: 'doc',
             docId: 'index',
-            position: 'left',
-            label: 'DOCS',
+            position: 'right',
+            label: 'HOME',
           },
-          { to: '/blog', label: 'NOTE', position: 'left', showLastUpdateTime : false,},
+
+          { to: '/blog', 
+            label: 'NOTE', 
+            position: 'right', 
+            showLastUpdateTime : false,
+          },
 
           {
             href: 'https://github.com/liqycs/liqycs.github.io',
@@ -102,7 +107,7 @@ const config = {
       },
       tableOfContents: {
         minHeadingLevel: 2,
-        maxHeadingLevel: 5,
+        maxHeadingLevel: 4,
       },
       // announcementBar 顶部公告栏
     }),
