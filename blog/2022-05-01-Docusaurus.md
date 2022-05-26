@@ -1,21 +1,18 @@
-<!-- ---
-slug: Daily 3/25/2022
-title: Daily 3/25/2022
-tags: [Demo, Getting started]
---- -->
-
+---
+date: 222-2-22
+---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# 
+# Docusaurus
 
-# 0 
+#### 1 
 
 [Github:emoji-cheat-sheet](https://github.com/ikatyang/emoji-cheat-sheet)
 
 
-# 1
+<!-- # 1
 
 <Tabs>
   <TabItem value="apple" label="Apple" default>
@@ -27,9 +24,9 @@ import TabItem from '@theme/TabItem';
   <TabItem value="banana" label="Banana">
     This is a banana 🍌
   </TabItem>
-</Tabs>
+</Tabs> -->
 
-# 2
+#### 2
 
 <Tabs
   defaultValue="apple"
@@ -43,7 +40,7 @@ import TabItem from '@theme/TabItem';
   <TabItem value="banana">This is a banana 🍌</TabItem>
 </Tabs>
 
-# 3
+#### 3
 
 <Tabs groupId="operating-systems">
   <TabItem value="win" label="Windows">Use Ctrl + C to copy.</TabItem>
@@ -55,7 +52,7 @@ import TabItem from '@theme/TabItem';
   <TabItem value="mac" label="macOS">Use Command + V to paste.</TabItem>
 </Tabs>
 
-# 4
+#### 4
 
 ```js
 function HighlightSomeText(highlight) {
@@ -78,7 +75,7 @@ function HighlightMoreText(highlight) {
 }
 ```
 
-# 5
+#### 5
 
 :::note 注意
 
@@ -111,7 +108,7 @@ function HighlightMoreText(highlight) {
 :::
 
 
-# 6
+#### 6
 
 :::tip Use tabs in admonitions
 
@@ -124,8 +121,25 @@ function HighlightMoreText(highlight) {
 
 :::
 
+#### 7
 
-# 7
+<details>
+  <summary>Toggle me!</summary>
+  <div>
+    <div>This is the detailed content</div>
+    <br/>
+    <details>
+      <summary>
+        Nested toggle! Some surprise inside...
+      </summary>
+      <div>
+        😲😲😲😲😲
+      </div>
+    </details>
+  </div>
+</details>
+
+#### 8
 
 ```
 npx create-docusaurus@latest my-website classic

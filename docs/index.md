@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: Wellcome
+title: 🔳
 slug: /
 # 隐藏右侧目录
 hide_table_of_contents: true
@@ -17,8 +17,6 @@ pagination_prev: null
                     height: "auto", 
                     position: "fixed",
                     right: "-22%",
-                    bottom: "-2.5%",}} />
+                    bottom: "0%",}} />
 
-:red_circle:
-
-:crescent_moon:
+<!-- :sunny::crescent_moon:📕📙📗📘 🔴🟠🟡🟢🟤🔵🟣⚫⚪-->                    

@@ -9,30 +9,20 @@ const duotoneLight = require('prism-react-renderer/themes/duotoneLight')
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: '在在在',
-  tagline: '在在在',
+  tagline: '',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: '/img/ico.png',
+  favicon: '/img/ico.svg',
+  noIndex: true,
 
   url: 'https://liqycs.github.io',
   baseUrl: '/',
-  organizationName: 'liqycs', // Usually your GitHub org/user name.
-  projectName: "liqycs.github.io", // Usually your repo name.
+  organizationName: 'liqycs', // Usually your GitHub org/user name
+  projectName: "liqycs.github.io", // Usually your repo name
   trailingSlash: false,
   deploymentBranch: 'gh-pages',
   githubHost: 'github.com',
-
-  noIndex: true,
-  i18n: {
-    defaultLocale: 'zh-cn',
-    locales: ['zh-cn'],
-  },
   
-  customFields: {
-
-    showLastUpdateTime : false
-  },
-
   presets: [
     [
       'classic',
@@ -41,11 +31,15 @@ const config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
+          // 禁用顶部痕迹导航
+          breadcrumbs: false,
+          showLastUpdateTime: false
         },
         blog: {
           showReadingTime: false,
           blogSidebarTitle: 'NOTE',
           blogSidebarCount: 'ALL',
+          postsPerPage: 1
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -64,40 +58,35 @@ const config = {
           
         },
       },
+
       colorMode: {
         defaultMode: 'dark',
-        disableSwitch: false,
-        respectPrefersColorScheme: true,
       }, 
       
       navbar: {
-        title: '在在在',
-        // logo: {src: 'img/ico.png'},
+        title: '🔴 🟠 🟡 🟢 ⚪ 🔵 🟣',
+        // logo: {src: 'img/ico.svg'},
 
         items: [
           {
             type: 'doc',
             docId: 'index',
             position: 'right',
-            label: 'HOME',
+            label: 'Home',
           },
 
           { to: '/blog', 
-            label: 'NOTE', 
+            label: 'Note', 
             position: 'right', 
             showLastUpdateTime : false,
           },
-
+          
           {
             href: 'https://github.com/liqycs/liqycs.github.io',
-            label: 'GitHub',
+            // label: 'Github',
             position: 'right',
           },
-          {
-            href: 'https://www.bilibili.com/video/BV1194y1f79C?p=38&share_source=copy_web',
-            // label: 'Bilibili',
-            position: 'right',
-          },
+
         ],
       },
 
