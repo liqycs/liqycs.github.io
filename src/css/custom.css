@@ -112,6 +112,7 @@ code {
   line-height: 100%;
   border-left: var(--ifm-color-primary-dark) 7px solid;
   border-radius: 1px;
+  font-family: 'Times New Roman', Times, serif;
 }
 .markdown > h3 {
   padding-left: 10px;

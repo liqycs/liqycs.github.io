@@ -1,10 +1,11 @@
 ---
-date: 222-2-22
+hide_title: true
+sidebar_position: 99
+title: Tool&resources
 ---
 
-# 工具资源
 
-> 原文地址 [https://wiki.404lab.top/](https://wiki.404lab.top/)
+###### 原文地址 [https://wiki.404lab.top/](https://wiki.404lab.top/)
 
 
 ## 社区/博客/信息源

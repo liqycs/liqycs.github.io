@@ -1,11 +1,12 @@
 ---
-date: 222-2-22
+hide_title: true
+sidebar_position: 99
+title: Docusaurus
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Docusaurus
 
 #### 1 
 
