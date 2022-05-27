@@ -4,25 +4,17 @@
         <title>在在在 Blog</title>
         <link>https://liqycs.github.io/blog</link>
         <description>在在在 Blog</description>
-        <lastBuildDate>Wed, 25 May 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 03 Mar 2333 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-cn</language>
         <item>
-            <title><![CDATA[About]]></title>
-            <link>https://liqycs.github.io/blog/About</link>
-            <guid>/About</guid>
-            <pubDate>Wed, 25 May 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[🎉 Docusaurus]]></description>
-            <content:encoded><![CDATA[<h4 class="anchor anchorWithStickyNavbar_mojV" id="-docusaurus"><a href="https://www.docusaurus.io/" target="_blank" rel="noopener noreferrer">🎉 Docusaurus</a><a class="hash-link" href="#-docusaurus" title="标题的直接链接">​</a></h4><h4 class="anchor anchorWithStickyNavbar_mojV" id="-github-pages"><a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">🎉 Github Pages</a><a class="hash-link" href="#-github-pages" title="标题的直接链接">​</a></h4><img loading="lazy" src="/img/000.png" style="width:70%;height:auto;position:fixed;right:-22%;bottom:0%" class="img_E7b_">]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Test]]></title>
-            <link>https://liqycs.github.io/blog/About copy</link>
-            <guid>/About copy</guid>
-            <pubDate>Sat, 25 May 0222 00:00:00 GMT</pubDate>
-            <description><![CDATA[md]]></description>
-            <content:encoded><![CDATA[<h4 class="anchor anchorWithStickyNavbar_mojV" id="md">md<a class="hash-link" href="#md" title="标题的直接链接">​</a></h4><p><a href="/blog/note/yy.md">Test.01</a></p><p><a href="/note/yy.md">Test.02</a></p><p><a href="/blog/note/yy.md">Test.03</a></p><h4 class="anchor anchorWithStickyNavbar_mojV" id="img">img<a class="hash-link" href="#img" title="标题的直接链接">​</a></h4><p><a href="/blog/img/001.png">Test.01</a></p><p><a target="_blank" href="/assets/files/001-4522a9900e3a5e0431ad723dfd1b1623.png">Test.02</a></p><p><a href="/blog/img/001.png">Test.03</a></p><img loading="lazy" src="/img/000.png" style="width:70%;height:auto;position:fixed;right:-22%;bottom:0%" class="img_E7b_">]]></content:encoded>
+            <title><![CDATA[应用程序]]></title>
+            <link>https://liqycs.github.io/blog/应用程序</link>
+            <guid>/应用程序</guid>
+            <pubDate>Fri, 03 Mar 2333 00:00:00 GMT</pubDate>
+            <description><![CDATA[Mcirosoft应用商店]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_mojV" id="mcirosoft应用商店">Mcirosoft应用商店<a class="hash-link" href="#mcirosoft应用商店" title="标题的直接链接">​</a></h2><ul><li>Microsoft To Do</li><li>Realtek Audio Control</li><li>Quicklook</li><li>Snipaste</li><li>TranslucentTB</li><li>Bandizip</li><li>NVIDIA Control Panel</li><li></li><li>Microsoft 便笺</li><li>Windows notepad</li><li>Windows Terminal</li><li>Windows power shell</li><li></li><li>Eartrumpet （与Fxsound冲突）</li><li>Twinkle tray:Brightness slider</li></ul><h2 class="anchor anchorWithStickyNavbar_mojV" id="edge扩展">Edge扩展<a class="hash-link" href="#edge扩展" title="标题的直接链接">​</a></h2><ul><li>Adblock</li><li>Fatkun图片批量下载 - Pro</li><li>IDM Integration Module</li><li>Tampermonkey</li><li>极速二维码-多场景解码工具</li><li>浮图秀</li><li>超级复制</li><li>划词翻译</li><li></li><li>喵喵折</li><li>listen 1 </li><li>Infinity 新标签页</li></ul><h2 class="anchor anchorWithStickyNavbar_mojV" id="驱动程序">驱动程序<a class="hash-link" href="#驱动程序" title="标题的直接链接">​</a></h2><ul><li>芯片组 AMD官网</li><li>显卡 NVIDIA官网</li><li>声卡 华硕官网</li><li>狼派键盘驱动</li><li>罗技G-hub</li></ul><h2 class="anchor anchorWithStickyNavbar_mojV" id="应用">应用<a class="hash-link" href="#应用" title="标题的直接链接">​</a></h2><ul><li>Office C2R Install</li><li>搜狗输入法</li><li>火绒</li><li>Everything</li><li>EverythingToolbar</li><li>TrueLaunchBar</li><li>lconViewer</li><li>noMeiryoUI</li><li>IDM</li><li>GEEK</li><li>PotPlayer64</li><li>Fxsound</li><li>soso music</li><li></li><li>QQ</li><li>UU</li><li>YY</li><li>JX3</li><li>ClickShow</li><li>按键精灵</li></ul><h2 class="anchor anchorWithStickyNavbar_mojV" id="其它">其它<a class="hash-link" href="#其它" title="标题的直接链接">​</a></h2><ul><li>Node.js</li><li>VScode</li><li>Git</li><li></li><li>NVIDIA RTX Voice</li><li>Adobe Premiere Pro</li><li>Adobe Photoshop</li><li>Adobe Acrobat</li><li>WO Mic</li><li>Dism++</li><li>百度网盘</li><li>ADB</li><li>Steam</li></ul>]]></content:encoded>
         </item>
     </channel>
 </rss>
