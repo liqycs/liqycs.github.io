@@ -8,26 +8,32 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 
-#### 1 
+### 配置运行
 
-[Github:emoji-cheat-sheet](https://github.com/ikatyang/emoji-cheat-sheet)
+```
+npx create-docusaurus@latest my-website classic
+
+cd my-website
+
+npm (run) start
+```
 
 
-<!-- # 1
 
-<Tabs>
-  <TabItem value="apple" label="Apple" default>
-    This is an apple 🍎
-  </TabItem>
-  <TabItem value="orange" label="Orange">
-    This is an orange 🍊
-  </TabItem>
-  <TabItem value="banana" label="Banana">
-    This is a banana 🍌
-  </TabItem>
-</Tabs> -->
+### 博客摘要
 
-#### 2
+```
+<!--truncate-->
+```
+
+### Mdx示例
+
+```
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+```
+
+---
 
 <Tabs
   defaultValue="apple"
@@ -41,7 +47,7 @@ import TabItem from '@theme/TabItem';
   <TabItem value="banana">This is a banana 🍌</TabItem>
 </Tabs>
 
-#### 3
+---
 
 <Tabs groupId="operating-systems">
   <TabItem value="win" label="Windows">Use Ctrl + C to copy.</TabItem>
@@ -53,7 +59,9 @@ import TabItem from '@theme/TabItem';
   <TabItem value="mac" label="macOS">Use Command + V to paste.</TabItem>
 </Tabs>
 
-#### 4
+---
+
+<br/>
 
 ```js
 function HighlightSomeText(highlight) {
@@ -76,7 +84,8 @@ function HighlightMoreText(highlight) {
 }
 ```
 
-#### 5
+---
+<br/>
 
 :::note 注意
 
@@ -109,7 +118,8 @@ function HighlightMoreText(highlight) {
 :::
 
 
-#### 6
+---
+<br/>
 
 :::tip Use tabs in admonitions
 
@@ -122,49 +132,27 @@ function HighlightMoreText(highlight) {
 
 :::
 
-#### 7
+---
+
+<br/>
 
 <details>
-  <summary>Toggle me!</summary>
+  <summary>01</summary>
   <div>
-    <div>This is the detailed content</div>
+    <div>一</div>
     <br/>
     <details>
-      <summary>
-        Nested toggle! Some surprise inside...
-      </summary>
-      <div>
-        😲😲😲😲😲
-      </div>
+      <summary>02</summary>
+      <div>二</div>
+      <br/>
+      <details>
+        <summary>03</summary>
+        <div>......</div>
+      </details>
     </details>
   </div>
 </details>
 
-#### 8
+---
 
-```
-npx create-docusaurus@latest my-website classic
-/
-npx create-docusaurus@latest my-website classic --typescript
-```
-
-
-```
-npx create-docusaurus@latest --help
-```
-
-
-```
-cd my-website
-```
-
-```
-npm run start
-/
-npm start
-```
-
-
-```
-npm run build
-```
+<br/>

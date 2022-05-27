@@ -44,7 +44,7 @@ const config = {
           blogSidebarTitle: 'Note',
           blogSidebarCount: 'ALL',
           blogTitle: 'Note',
-          blogSidebarCount: 0,
+          // blogSidebarCount: 0,  // blog左侧边栏
         },
         
         theme: {
@@ -69,7 +69,7 @@ const config = {
       },
       
       navbar: {
-        title: 'l l l',
+        title: 'lll',
         // logo: {src: 'img/logo.png'},
 
         items: [
@@ -77,13 +77,13 @@ const config = {
           {
             to: '/docs/剑三/焚影',
             label: 'Docs',
-            position: 'right',
+            position: 'left',
           },
 
-          { to: 'blog', 
-            label: 'Note', 
-            position: 'right',
-          },
+          // { to: 'blog', 
+          //   label: 'Note', 
+          //   position: 'right',
+          // },
 
           {
             href: 'https://github.com/liqycs/liqycs.github.io',

@@ -1,13 +1,19 @@
 ---
 hide_table_of_contents: true    # 隐藏右侧目录
-sidebar_position: 1
-date: 2022-05-25
+sidebar_position: 999
 title: About
+date: 3333-12-2
+hide_title: true
+pagination_next: null
+pagination_prev: null
+weight: 0
 ---
 
-#### [🎉 Docusaurus](https://www.docusaurus.io/)
+# Thanks 🎉
 
-#### [🎉 Github Pages](https://pages.github.com/)
+### [Docusaurus 2.0](https://www.docusaurus.io/)
+
+### [Github Pages](https://pages.github.com/)
 
 
 
