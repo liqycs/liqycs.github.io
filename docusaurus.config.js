@@ -15,6 +15,10 @@ const config = {
   favicon: '/img/ico.svg',
   noIndex: true,
   titleDelimiter: '@',
+  i18n: {
+    defaultLocale: 'zh-cn',
+    locales: ['zh-cn'],
+  },
 
   baseUrl: '/',
   organizationName: 'liqycs', // Usually your GitHub org/user name
@@ -35,7 +39,13 @@ const config = {
           showLastUpdateTime: false
         },
 
-        blog: false,
+        blog: {
+          showReadingTime: false,
+          blogSidebarTitle: 'Note',
+          blogSidebarCount: 'ALL',
+          blogTitle: 'Note',
+          blogSidebarCount: 0,
+        },
         
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -59,12 +69,19 @@ const config = {
       },
       
       navbar: {
-        title: '在在在',
+        title: 'l l l',
+        // logo: {src: 'img/logo.png'},
 
         items: [
+
           {
             to: '/docs/剑三/焚影',
             label: 'Docs',
+            position: 'right',
+          },
+
+          { to: 'blog', 
+            label: 'Note', 
             position: 'right',
           },
 
@@ -83,7 +100,7 @@ const config = {
 
       tableOfContents: {
         minHeadingLevel: 2,
-        maxHeadingLevel: 4,
+        maxHeadingLevel: 5,
       },
 
     }),

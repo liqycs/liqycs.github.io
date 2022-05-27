@@ -34,8 +34,8 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 }
 
 html {
-  font-family: 'Noto Sans', sans-serif;
   font-style: normal;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 /* 小空调自定义样式 */
@@ -113,6 +113,7 @@ code {
   border-left: var(--ifm-color-primary-dark) 7px solid;
   border-radius: 1px;
   font-family: 'Times New Roman', Times, serif;
+  cursor: default;
 }
 .markdown > h3 {
   padding-left: 10px;
@@ -167,4 +168,21 @@ div[class^='announcementBar_'] {
 }
 ::-webkit-scrollbar-thumb:window-inactive {
   background: rgba(255, 0, 0, 0.4);
+}
+
+.markdown > h1,.markdown > h2,.markdown > h3 {
+  cursor: default;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.markdown > h4,.markdown > h5,.markdown > h6 {
+  cursor: default;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+:root,:root p,:root a,:root h1,:root h2,:root h3,:root h4,:root h5,:root h6 {
+  font-family: 'Times New Roman', Times, serif;
+}
+:root b {
+    font-family: 'Noto Sans';
 }

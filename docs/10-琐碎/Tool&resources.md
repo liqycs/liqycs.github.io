@@ -20,7 +20,7 @@ title: Tool&resources
 
 [http://www.ruanyifeng.com/blog/](http://www.ruanyifeng.com/blog/)
 
-### [**峰华前端工程师**](https://zxuqian.cn/)
+### 峰华前端工程师
 
 [https://zxuqian.cn/](https://zxuqian.cn/)
 
