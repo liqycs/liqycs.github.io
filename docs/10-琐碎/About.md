@@ -11,15 +11,13 @@ weight: 0
 
 # Thanks 🎉
 
-### [Docusaurus 2.0](https://www.docusaurus.io/)
+<br/>
 
-### [Github Pages](https://pages.github.com/)
+#### [Docusaurus 2.0](https://www.docusaurus.io/)
+
+#### [Github Pages](https://pages.github.com/)
 
 
 
- <img src="/img/000.png" 
-        style={{    width:"70%", 
-                    height: "auto", 
-                    position: "fixed",
-                    right: "-22%",
-                    bottom: "0%",}} />
+ <img  src="/img/000.png" 
+       style={{ width:"70%", height: "auto", position: "fixed", right: "-22%", bottom: "0%" }} />

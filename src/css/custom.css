@@ -112,8 +112,6 @@ code {
   line-height: 100%;
   border-left: var(--ifm-color-primary-dark) 7px solid;
   border-radius: 1px;
-  font-family: 'Times New Roman', Times, serif;
-  cursor: default;
 }
 .markdown > h3 {
   padding-left: 10px;
@@ -183,6 +181,17 @@ div[class^='announcementBar_'] {
 :root,:root p,:root a,:root h1,:root h2,:root h3,:root h4,:root h5,:root h6 {
   font-family: 'Times New Roman', Times, serif;
 }
+
 :root b {
-    font-family: 'Noto Sans';
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 11px;
+  font-weight: 400;
+  font-size: 27px;
+  letter-spacing:2.5px;
+}
+
+@media (max-width: 1440px) {
+:root b {
+  margin-top: -0.65px;
+ }
 }
