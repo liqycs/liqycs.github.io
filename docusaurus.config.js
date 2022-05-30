@@ -21,8 +21,8 @@ const config = {
   },
 
   baseUrl: '/',
-  organizationName: 'liqycs', // Usually your GitHub org/user name
-  projectName: "liqycs.github.io", // Usually your repo name
+  organizationName: 'liqycs', // your GitHub user name
+  projectName: "liqycs.github.io", // your repo name
   trailingSlash: false,
   deploymentBranch: 'gh-pages',
   githubHost: 'github.com',
@@ -34,17 +34,15 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // 禁用顶部痕迹导航
-          breadcrumbs: false,
-          showLastUpdateTime: false
+          breadcrumbs: false, // 文章顶部痕迹导航
+          showLastUpdateTime: false, // 最后更新时间
         },
 
         blog: {
           showReadingTime: false,
           blogSidebarTitle: 'Note',
-          blogSidebarCount: 'ALL',
-          blogTitle: 'Note',
-          // blogSidebarCount: 0,  // blog左侧边栏
+          blogSidebarCount: 'ALL', //blog左侧边栏展示数量
+          blogTitle: 'Note',  
         },
         
         theme: {
@@ -58,20 +56,21 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       colorMode: {
-        defaultMode: 'dark',
+        defaultMode: 'dark', //默认主题
       }, 
 
       docs: {
         sidebar: {
-          hideable: false,
-          autoCollapseCategories: true,          
+          hideable: false, //可隐藏的侧边栏
+          autoCollapseCategories: true, //自动折叠边栏类别
         },
       },
       
       navbar: {
         title: 'lll',
         // logo: {src: 'img/ico.svg'},
-
+        hideOnScroll: true, //当用户向下滚动时导航栏是否隐藏
+        
         items: [
 
           {
@@ -90,6 +89,7 @@ const config = {
             // label: 'Github',
             position: 'right',
           },
+
         ],
       },
 
