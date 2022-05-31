@@ -54,10 +54,19 @@ _斜体_
 
 ~~删除线~~
 
+<u>下划线</u>
+
+<center>居中</center>
+
+<p align="center">align居中</p>
+
 ```
 _斜体_
 **粗体**
 ~~删除线~~
+<u>下划线文本</u>
+<center>居中</center>
+<p align="center">align居中</p>
 ```
 
 ## 列表
@@ -119,7 +128,7 @@ _斜体_
 ![line](/img/000.png)
 
 ```md
-![line](http://xx.com/xx.jpg)
+![line](url)
 ```
 
 
@@ -211,3 +220,4 @@ return temp
         width="100%"
         height="86px"></iframe>
 ```
+

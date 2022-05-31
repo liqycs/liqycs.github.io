@@ -6,6 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 const oceanicNext = require('prism-react-renderer/themes/oceanicNext')
 const duotoneLight = require('prism-react-renderer/themes/duotoneLight')
 /** @type {import('@docusaurus/types').Config} */
+
 const config = {
   title: '在在在',
   tagline: '',
@@ -55,6 +56,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+
       colorMode: {
         defaultMode: 'dark', //默认主题
       }, 
@@ -103,7 +105,10 @@ const config = {
         maxHeadingLevel: 5,
       },
 
+
     }),
+
+
 }
 
 module.exports = config

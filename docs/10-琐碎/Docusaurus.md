@@ -137,6 +137,18 @@ function HighlightMoreText(highlight) {
 <br/>
 
 <details>
+  <summary>Emoji</summary>
+  <div>
+    <div>
+Code：https://github.com/ikatyang/emoji-cheat-sheet/<br/>
+Copy：https://emojipedia.org/<br/>
+📕📙📗📘 🔴🟠🟡🟢🟤🔵🟣⚫⚪🌙☀️🌕📖📚🏠🏘️✈️🚀🛰️✨⏳🎉🔍✉️📧💊<br/>
+    </div>
+    <br/>
+  </div>
+</details>
+
+<details>
   <summary>01</summary>
   <div>
     <div>一</div>
@@ -152,6 +164,7 @@ function HighlightMoreText(highlight) {
     </details>
   </div>
 </details>
+
 
 ---
 
