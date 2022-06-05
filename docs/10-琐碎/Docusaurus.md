@@ -1,6 +1,6 @@
 ---
 hide_title: true
-sidebar_position: 99
+sidebar_position: 998
 title: Docusaurus
 ---
 

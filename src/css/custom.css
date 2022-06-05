@@ -190,6 +190,14 @@ div[class^='announcementBar_'] {
   letter-spacing:2.5px;
 }
 
+.theme-doc-markdown button {
+  display: inline-blockl;
+  height: 70px;
+  margin: 20px;
+  padding: 20px;
+  font-size: 24px;
+}
+
 @media (max-width: 1440px) {
 :root b {
   margin-top: -0.65px;
