@@ -42,3 +42,13 @@ C:\Users\xxx 改成 C:\Users\abc<br/>
 ### 禁止程序联网
 
 控制面板——Windows Defender 防火墙——高级设置——出站规则——新建规则——
+
+### 禁用文件夹预览.reg
+```
+Windows Registry Editor Version 5.00
+ 
+[HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\AllFolders\Shell]
+"Logo"="d:\\somefile.jpg"
+
+;C盘右键–属性–磁盘清理，勾选“缩略图”确定;注销或重启电脑
+```

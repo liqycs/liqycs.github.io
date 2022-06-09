@@ -23,12 +23,25 @@ git config --list
 #生成ssh id_rsa 私钥  id_rsa.pub 公钥
 ssh-keygen -t rsa -C “邮箱”
 
-#关联
+#关联远程库
 git remote add origin <远程shh地址>
 git branch --set-upstream-to=origin/<branch>
 
+#查看关联的远程库
+git remote -v
+
 #退出
 ESC + ZZ
+
+#拉取指定分支
+git clone -b <branch> <url>
+
+#测试
+ssh -T git@gitee.com
+ssh -T git@github.com
+
+#查看所有分支
+git branch -a
 ```
 
 #### 提交流程
@@ -115,10 +128,34 @@ git commit -a -m "delete all"
 git push
 ```
 
+#### 同时连接Github和Gitee
+```
+ssh-keygen -t rsa -C 'github邮箱号' -f ~/.ssh/id_rsa_github
+ssh-keygen -t rsa -C 'gitee邮箱号' -f ~/.ssh/id_rsa_gitee
+```
+```
+~/.ssh/config
+
+# gitee
+Host gitee.com
+HostName gitee.com
+PreferredAuthentications publickey
+IdentityFile ~/.ssh/id_rsa_gitee
+# github
+Host github.com
+HostName github.com
+PreferredAuthentications publickey
+IdentityFile ~/.ssh/id_rsa_github
+```
 
 #### 常用Git命令清单 阮一峰
 
 http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html
+
+
+
+
+
 
 
 ## Nodejs

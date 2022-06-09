@@ -19,5 +19,4 @@ weight: 0
 
 
 
-<img  src="/img/000.png" 
-       style={{ width:"70%", height: "auto", position: "fixed", right: "-20%", bottom: "0%" }} />
+<img  src="/img/yh.png" style={{ width:"auto", height: "93%", position: "fixed", right: "0%", bottom: "0%" }} />
