@@ -19,4 +19,13 @@ weight: 0
 
 
 
-<img  src="/img/yh.png" style={{ width:"auto", height: "93%", position: "fixed", right: "0%", bottom: "0%" }} />
+<img src="/img/yh.png"
+    style={{
+        userSelect: "none",
+        cursor: "default",
+        pointerEvents: "none",
+        width:"auto", 
+        height: "93%", 
+        position: "fixed", 
+        right: "0%", 
+        bottom: "0%" }} />

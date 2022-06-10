@@ -201,3 +201,13 @@ div[class^='announcementBar_'] {
   margin-top: -0.65px;
  }
 }
+
+
+#lwlhitokoto {
+  background-color: #f0f8ff;
+  padding: 10px;
+  text-align: center;
+  color: #d40909;
+  margin: 5px 0 5px 0;
+  border-radius: 2px;
+}
