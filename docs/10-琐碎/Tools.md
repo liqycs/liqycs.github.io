@@ -44,6 +44,22 @@ ssh -T git@github.com
 git branch -a
 ```
 
+#### 连接问题
+```
+#查询proxy
+git config --global -l
+
+#删除proxy
+git config --global --unset http.proxy
+git config --global --unset https.proxy
+
+#配置proxy
+git config --global http.proxy http://127.0.0.1:443
+git config --global https.proxy http://127.0.0.1:443
+
+#
+```
+
 #### 提交流程
 ```
 #查看
@@ -194,6 +210,86 @@ Code：https://github.com/ikatyang/emoji-cheat-sheet/
 Copy：https://emojipedia.org/
 
 📕📙📗📘 🔴🟠🟡🟢🟤🔵🟣⚫⚪🌙☀️🌕📖📚🏠🏘️✈️🚀🛰️✨⏳🎉🔍✉️📧💊
+
+## Textify
+```
+; Mouse and keyboard key numbers can be found here:
+; https://docs.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes
+; Set key to 0 to disable the mouse/keyboard shortcut.
+
+[mouse]
+key=4
+ctrl=1
+alt=0
+shift=0
+
+[keyboard]
+key=84
+ctrl=1
+alt=1
+shift=1
+
+[config]
+check_for_updates=0
+auto_copy_selection=1
+hide_wnd_on_startup=1
+hide_tray_icon=0
+;font_name=Consolas
+;font_size=24
+
+; The following option causes empty Unicode symbols to be removed
+; and various space symbols to be replaced with a regular space.
+unicode_spaces_to_ascii=0
+
+; Language codes can be found here:
+; https://www.autoitscript.com/autoit3/docs/appendix/OSLangCodes.htm
+;ui_language=1033
+
+; Set to msaa to make Textify use the old Microsoft Active Accessibility API.
+; Set to uia to make Textify use the newer UI Automation API.
+; If not set, Textify uses both APIs to retrieve the text in the best way.
+;text_retrieval_method=uia
+
+[exclude]
+;1=photoshop.exe
+;2=notepad.exe
+:3=JX3ClientX64.exe
+
+; Web buttons appear below the text, and can be used to open the selected
+; text in a website, such as a search engine or a web translation service.
+; More web buttons can be added, and existing buttons can be removed.
+; If desired, all of the web buttons can be removed.
+;
+; Web buttons can be used with the keyboard shortcuts: Alt+1, Alt+2, etc.
+; A custom key can be configured. For example, to configure a web button
+; to open with Alt+Q, add key=q to the relevant button.
+;
+; A command can be a URL or a program. It can contain the following:
+; %s - will be replaced by the selected text, URL encoded.
+; %cs - will be replaced by the selected text, with quote characters stripped.
+; %rs - will be replaced by the selected text as is (use carefully).
+;
+; A command can start with popup-web!, followed by a URL.
+; In this case, the page will be opened in a browser popup (browser auto-detected).
+; You can be more specific by starting a command with one of the following:
+; popup-chrome!, popup-edge!, popup-firefox!, popup-ie-control!.
+
+[web_buttons]
+icon_size=20
+buttons_per_row=8
+
+[web_button_1]
+name=
+icon=icons\Search.ico
+command=popup-web!edge://newtab/
+width=500
+height=1000
+```
+
+
+
+
+
 
 ## Shutdown&Restart
 
