@@ -286,7 +286,24 @@ width=500
 height=1000
 ```
 
+## YoloMouse
+```
+Settings.json
 
+{
+    Version: 1.2.3.0
+    PickerKey: "ALT SHIFT C"
+    BindKey: "ALT SHIFT 1"
+    BindAllKey: "ALT SHIFT D"
+    UnbindKey: "ALT SHIFT ["
+    UnbindAllKey: "ALT SHIFT ]"
+    SmallerKey: "ALT SHIFT -"
+    LargerKey: "ALT SHIFT ="
+    ColorsKey: "ALT SHIFT 2"
+    AutoStart: false
+    StartInSteam: false
+}
+```
 
 
 
