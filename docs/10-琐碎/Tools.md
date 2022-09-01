@@ -324,7 +324,7 @@ Settings.json
 	div a:link,div a:visited { text-decoration:none;color:#000 } 
 	div a:hover { text-decoration:underline;color:#f00 } 
 	#footerinfo { width:100%;display:table;margin-top:5px; } 
-	#left { float:left;width:50%; } 
+	#left { float:left;width:70%; } 
 	#right { float:right;width:29%;text-align:right;margin-right:1px; } 
 </style> 
   <script language="JavaScript"> 
@@ -372,10 +372,10 @@ $Oper_str="";
 $Hint_str=""; 
 $Titl_str=""; 
 if ($operation=="rWin") { 
-$Oper_str="<span style=\"color:red\"> —— 准备关机 ——</span>"; 
+$Oper_str="<span style=\"color:red\"> 准备关机...</span>"; 
 } 
 else { 
-$Oper_str="<span style=\"color:red\"> —— 准备重启 ——</span>"; 
+$Oper_str="<span style=\"color:red\"> 准备重启...</span>"; 
 } 
 if ($mod_time=="mod_minute") { 
 $tMinute=($time/60).toString().parseInt(); 
@@ -478,8 +478,7 @@ if (event.keyCode==13) { event.keyCode=9; }
   <div id="footerinfo"> 
    <div id="left"></div> 
    <div id="right">
-     By:Sena
-<!-- 来源：吾爱破解 https://www.52pojie.cn/thread-1475980-1-1.html 另存为.hta运行 -->
+     <!-- By:Sena https://www.52pojie.cn/thread-1475980-1-1.html 另存为.hta即可运行 -->
    </div> 
   </div>  
  </body>
