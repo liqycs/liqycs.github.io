@@ -21,7 +21,7 @@ weight: 0
         left: "20%", 
         top: "25%",
         fontSize: "30px",
-        color: "#fff", }}>Welcome</div>
+        color: "#fff", }}></div>
 
 <img src="/img/yh.png"
     style={{
