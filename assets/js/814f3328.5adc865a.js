@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkying_winwin=self.webpackChunkying_winwin||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Note","items":[{"title":"\u5f85\u529e","permalink":"/blog/\u5f85\u529e"}]}')}}]);
