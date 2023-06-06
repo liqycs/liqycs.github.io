@@ -9,12 +9,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: mirror with mappings
-        uses: Yikun/hub-mirror-action@mappings
+        uses: Yikun/hub-mirror-action@master
         with:          
           # 表示需要被同步的源端账户名，即 Github 的账户名
-          src: 'github/liqycs'
+          src: github/liqycs
           # 表示需要同步到的目的端账户名，即 Gitee 的账户名
-          dst: 'gitee/liqycs'
+          dst: gitee/liqycs
           # 注意在 Settings->Secrets 配置私钥 GITEE_RSA_PRIVATE_KEY
           dst_key: ${{ secrets.GITEE_RSA_PRIVATE_KEY }}
           # Gitee TOKEN
