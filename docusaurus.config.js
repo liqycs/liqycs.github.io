@@ -76,7 +76,7 @@ const config = {
         items: [
 
           {
-            to: '/docs/剑三/焚影',
+            to: '/docs/琐碎/About',
             label: 'Docs',
             position: 'left',
           },
