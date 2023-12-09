@@ -90,7 +90,8 @@ function OnEvent(event, arg)
 end
 ```
 
-循环切换
+## 循环切换
+
 切换第一页快捷栏F8
 切换第二页快捷栏F9
 ```lua
