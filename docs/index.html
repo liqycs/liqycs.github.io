@@ -2,12 +2,11 @@
 <html lang="zh-cn">
 <head>
 <meta charset="UTF-8">
-<title>liqycs</title>
+<title>♥</title>
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 <meta name="description" content="Description">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-<link rel="icon" href="img/ico.svg" sizes="16x16">
-<!-- Theme: Simple (light + dark) -->
+<link rel="icon" href="img/favicon-horz.svg" sizes="16x16">
 <link rel="stylesheet" href="index.css">
 </head>
 <body>
@@ -21,7 +20,6 @@
       homepage: '/index.md', //设置首页文件加载路径
       coverpage: false, //封面_coverpage.md
       auto2top: false, //切换页面后是否自动跳转到页面顶部
-      name: '',
       notFoundPage: true, //在找不到指定页面时加载_404.md
       topMargin: 0, //让你的内容页在滚动到指定的锚点时，距离页面顶部有一定空间
       auto2top: true, //切换页面后是否自动跳转到页面顶部
@@ -32,17 +30,8 @@
       placeholder: ' ',
       depth: 4, // 搜索标题的最大层级, 1 - 6
       hideOtherSidebarContent: false, // 是否隐藏其他侧边栏内容
-      // 避免搜索索引冲突
-      // 同一域下的多个网站之间
-      namespace: 'website-1',
-      // 使用不同的索引作为路径前缀（namespaces）
-      // 注意：仅适用于 paths: 'auto' 模式
-      // 初始化索引时，我们从侧边栏查找第一个路径
-      // 如果它与列表中的前缀匹配，我们将切换到相应的索引
+      namespace: 'website-1', // 避免搜索索引冲突 同一域下的多个网站之间
       pathNamespaces: ['/zh-cn', '/ru-ru', '/ru-ru/v1'],
-
-      // 您可以提供一个正则表达式来匹配前缀。在这种情况下，
-      // 匹配到的字符串将被用来识别索引
       pathNamespaces: /^(\/(zh-cn|ru-ru))?(\/(v1|v2))?/,
       }
     }
