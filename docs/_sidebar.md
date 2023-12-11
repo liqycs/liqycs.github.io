@@ -6,9 +6,9 @@
     * [指南](/G-series%20Lua%20API.md) -->
 
 
-* [G-series Lua API](./doc/G-series%20Lua%20API.md "♧")
-* [JX3 lua](./doc/lua.md "♢")
-* [JX3](./doc/JX3.md "♡")
+* [G-series Lua API](./doc/G-series%20Lua%20API.md)
+* [JX3 lua](./doc/lua.md)
+* [JX3](./doc/JX3.md)
 
 <!-- 
 * [](./doc "●")
