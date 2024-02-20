@@ -12,7 +12,7 @@
 - 吾爱破解
 - 果核剥壳
 
-### Mcirosoft 应用商店
+### Microsoft 应用商店
 
 - 邮件 ×
 - One Driver
@@ -27,19 +27,15 @@
 
 ### EDGE 扩展
 
-- Adblock 广告拦截器
+- Adblock广告拦截器
 - KeePassXC-Browser
 - Bookmark Syncer 同步书签保险
-- Tampermonkey
-	  - [修复必应搜索自动返回顶部](https://greasyfork.org/zh-CN/scripts/481435-%E4%BF%AE%E5%A4%8D%E5%BF%85%E5%BA%94%E6%90%9C%E7%B4%A2%E7%BB%93%E6%9D%9F%E8%BF%94%E5%9B%9E%E9%A1%B6%E9%83%A8)
-	  - 网盘直链下载助手
-	  - 百度网盘千千下载助手
+- Tampermonkey</br>[修复必应搜索自动返回顶部](https://greasyfork.org/zh-CN/scripts/481435-%E4%BF%AE%E5%A4%8D%E5%BF%85%E5%BA%94%E6%90%9C%E7%B4%A2%E7%BB%93%E6%9D%9F%E8%BF%94%E5%9B%9E%E9%A1%B6%E9%83%A8)
 - IDM Integration Module
 - URLRedirector url 重定向（例如谷歌搜索自动定向至必应搜索）
 - 复制 Superior
 - 浮图秀
 - 沙拉查词-聚合词典划词翻译
-
 - User-Agent Switcher 更改浏览器UA标识
 - Infinity 新标签页
 - Fatkun 图片批量下载
@@ -59,12 +55,9 @@
 
 ### 重要
 
-- 启动项注册表位置(查找最小化启动参数)
-```
-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
-```
-
+- 启动项注册表位置(查找最小化启动参数)</br>
+	HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run</br>
+	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
 - KeePassXC 密码管理 便携
 - CLaunch 10x10 快捷启动 云盘 ×
 - 搜狗输入法
@@ -77,7 +70,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
 - Everything 搜索 便携
 - EverythingToolbar
 - IDM 下载工具
-- IDM激活 PowerShell `irm https://massgrave.dev/ias | iex`
+- IDM激活 PowerShell</br>`irm https://massgrave.dev/ias | iex`
 - GEEK 卸载工具
 - PotPlayer64 播放器 便携
 - DirectX_Repair(Enhanced_Edition) DX修复
@@ -101,7 +94,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
 	- remotely-sync
 	- Style Settings
 	- Tray
-- - VS Code
+- VS Code
 	- Chinese
 	- 翻译(英汉词典)
 	- Auto Close Tag
@@ -159,6 +152,9 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
 - CrystalDiskInfo（硬盘状态检测工具）v9.2.1标准版 便携
 - W11ClassicMenu 单win11右键菜单样式管理 便携
 - 傲梅分区助手技术员版v10.1.0 便携 吾爱
+- sigil
+- calibre
+- NeatConverter
 
 ## Andriod
 
@@ -182,5 +178,6 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
 - 识货
 - 铁路12306
 - Zlibrary
+- Kindle
 
 February 2024
