@@ -1,22 +1,5 @@
 
 
-## 虞美人·听雨
-
-###### 蒋捷 宋
-
-</br>
-
-##### 少年听雨歌楼上，红烛昏罗帐。
-
-##### 壮年听雨客舟中，江阔云低、断雁叫西风。
-
-##### 而今听雨僧庐下，鬓已星星也。
-
-##### 悲欢离合总无情，一任阶前、点滴到天明。
-
-
-December 2023
-
 
 ---
 
@@ -27,7 +10,7 @@ December 2023
 ### Microsoft 应用商店
 
 - 邮件 ×
-- One Driver
+- One Drive
 - NVIDIA Control Panel
 - Windows Terminal
 - Microsoft To Do
@@ -198,5 +181,6 @@ December 2023
 - 移动硬盘
 - 阿里相册
 
+---
 
-February 2024
+*February 2024*

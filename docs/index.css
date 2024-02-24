@@ -975,3 +975,37 @@ code .token {
 ::selection {
   background-color: #42b983;
 }
+
+.box {
+  position: absolute; 
+  top: 0;
+  right: 0;
+  bottom: 0;   
+  left: 0;   
+  /* width: 500px; */   
+  height: 100px;   
+  margin: auto;   
+  text-align: center;  
+  /* border :1px solid black; */ 
+}
+
+.time {
+  font-size: 100px;   
+  text-align: center;   
+  font-family: Digital Dismay,serif;  
+}
+   
+.date { 
+  font-size: 32px; 
+  text-align: center;
+  font-family: Digital Dismay,serif; 
+}
+
+.markdown-section a {
+  text-decoration:none;
+  /* color: #34495e; */
+}
+
+img {
+  width: 7.3%;
+}
