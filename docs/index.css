@@ -980,8 +980,8 @@ code .token {
   position: absolute; 
   top: 0;
   right: 0;
-  bottom: 0;   
-  left: 0;   
+  bottom: 0;
+  left: 0;
   /* width: 500px; */   
   height: 100px;   
   margin: auto;   
@@ -990,13 +990,13 @@ code .token {
 }
 
 .time {
-  font-size: 100px;   
+  font-size: 4rem;   
   text-align: center;   
   font-family: Digital Dismay,serif;  
 }
    
 .date { 
-  font-size: 32px; 
+  font-size: 1.4rem; 
   text-align: center;
   font-family: Digital Dismay,serif; 
 }
@@ -1006,6 +1006,13 @@ code .token {
   /* color: #34495e; */
 }
 
-img {
-  width: 7.3%;
+.jump {
+  width: 7.3rem;
+  position: absolute; 
+  top: 25rem;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;   
+  text-align: center;  
 }
