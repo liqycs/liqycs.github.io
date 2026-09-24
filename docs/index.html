@@ -13,26 +13,37 @@
 
   <body>
     <div id="app"></div>
-    <script>
-        window.$docsify = {
-          name:'Liqycs',
-          nameLink: 'https://www.themoviedb.org/u/liqycs/lists',
-          auto2top: true,
-          notFoundPage: true,
-          homepage: '',
-          executeScript: true,
-          loadSidebar: false,
-          hideSidebar: false, //hide侧边栏
-          maxLevel: 4,
-          subMaxLevel: 4,
-          search: {
-            noData: {'/': 'No results!',},
-            paths: 'auto',
-            placeholder: {'/': '',},
-            pathNamespaces: [''],
-          },
+<script>
+    window.$docsify = {
+      name:'Liqycs',
+      nameLink: 'https://www.themoviedb.org/u/liqycs/lists',
+      auto2top: true,
+      notFoundPage: true,
+      homepage: '',
+      executeScript: true,
+      loadSidebar: false,
+      hideSidebar: false,
+      maxLevel: 4,
+      subMaxLevel: 4,
+      search: {
+        noData: {'/': 'No results!',},
+        paths: 'auto',
+        placeholder: {'/': '',},
+        pathNamespaces: [''],
+      },
+      
+      plugins: [
+        function (hook) {
+          hook.mounted(function () {
+            // 桌面端默认收起侧边栏；移动端 docsify 本来就会收起，无需重复处理
+            if (window.innerWidth > 768) {
+              document.body.classList.add('close');
+            }
+          });
         }
-    </script>
+      ]
+    }
+</script>
     <script src="/docsify.min.js"></script>
     <script src="/search.min.js"></script>
     <!-- <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script> -->
